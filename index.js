@@ -45,4 +45,5 @@ function check() {
     if (password.value.length <=6) {
         document.getElementById('errorMessage').innerHTML += "Ваш пароль слишком короткий, введите больше 7 символов <br>";
     }
+    else alert ("welcome: " + '${name}');
 }
